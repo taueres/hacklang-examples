@@ -1,0 +1,4 @@
+#!/bin/bash
+
+echo "Running web server listening to TCP 8080. Good luck!"
+docker exec hhvm sh -c "cd /root/project && hhvm -m server -p 8080"
